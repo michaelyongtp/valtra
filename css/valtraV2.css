@@ -1,0 +1,99 @@
+/*body {
+    font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.95);
+    webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+*/
+.brand-heading{
+/*padding-left: 40px;*/
+font-size: 20px;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.dark{
+  color:rgb(0, 0, 0);
+  font-weight: 700;
+}
+.letterA{
+  color: rgb(255, 169, 71);
+}
+
+.introImg {
+    width: 100%;
+    height: 541px;
+    background-image: url(../img/bakhita.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.address {
+/*  height: 100%;
+  border: 1px solid red;*/
+  background-color: rgb(255, 169, 71);
+  color: white;
+  border: 1px solid white;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.module {
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)
+    ),
+    /*url(../img/bakhita.jpg);*/
+    /*width: 100%;*/
+    height: 541px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.module > header {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 100%;
+  padding: 0px 10px;
+}
+.module > header > h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 0 1px 0 black;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+ /* .content-section {
+    margin-top: 90px;
+    padding-top: 40px;
+  }*/
+
+footer {
+  padding: 50px 0;
+  font-size: 10px;
+}
+footer p {
+  margin: 0;
+}

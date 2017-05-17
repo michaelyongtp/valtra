@@ -1,0 +1,277 @@
+body {
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.95);
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  /*text-transform: uppercase; */
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "NoeDisplayMedium";
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h4{
+  color:rgb(255, 169, 71);
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+a {
+  /*color: #42DCA3;*/
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  /*color: #1d9b6c;*/
+  color: rgb(255, 169, 71);
+  outline: none;
+  background-color: transparent;
+}
+
+.nav li a:hover {
+  color: rgba(29, 155, 108);
+  outline: none;
+  /*background-color: transparent;*/
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.95);
+  font-size: 15px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  text-align: center;
+}
+
+
+.light {
+  font-weight: 400;
+}
+
+.dark{
+  color:rgb(0, 0, 0);
+  font-weight: 700;
+}
+.letterA{
+  color: rgb(255, 169, 71);
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: white;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+.btn-default {
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+.btn-default:hover {
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  color: black;
+  background-color: rgb(255, 169, 71);
+}
+
+  ul.portfolio-buttons li {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+.disti, .semi-colon{
+    
+    margin:0;
+    height:20px;
+    font-size: 18px;
+    line-height:20px;
+    float:left;
+}
+
+.semi-colon {
+  padding-top:15px;
+}
+
+  .disti {
+    padding: 15px;
+  }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 421px)  {
+  .disti {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) 
+{
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: rgb(0 ,0 ,0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  }
+
+  .brand-heading{
+    height: 100%;
+    padding: 40px 0;
+    font-size: 90px;
+    font-size: 7vw;
+  }
+  .intro-text {
+    font-size: 26px;
+  }
+
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+
+  .disti, .semi-colon {
+    padding: 15px 8px;
+    margin:0;
+    height:50px;
+    font-size: 18px;
+    line-height:20px;
+    float:left;
+    }
+
+}
+
+footer {
+  padding: 50px 0;
+}
+footer p {
+  margin: 0;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+
+.eneaimg{
+  width:100%;
+  margin:1.66%;
+}
+
+.portfolioLinks {
+  margin-left:;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.gaber {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*carousel*/
+
+/*.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+
+  }*/
+
+.item { 
+height:300px;
+overflow: hidden; 
+}
+
+.carousel-imgs {
+  /*max-width: 100%;*/
+  max-height: 290px;
+  position: center;
+  margin: auto;
+  padding: auto;
+}
+
+/*.logo123 {
+     background: url(../img/enea-chair1.jpg) no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .logo123 {
+
+    width: 425px;
+    height: 300px;
+    background-image: url(../img/enea-chair1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}*/
+/*carousel-end*/
+
